@@ -52,7 +52,7 @@ const UserHeader = () => {
           <Box w={1} h={1} bg={"gray.light"} borderRadius="50%"></Box>
           <Link color={"gray.light"}>Instagram.com</Link>
         </Flex>
-       
+        
         <Flex gap={2}>
           <Box className="icon-container">
             {" "}
