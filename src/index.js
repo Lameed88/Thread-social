@@ -8,8 +8,9 @@ import { ChakraProvider } from '@chakra-ui/react';
 const styles = {
   global: (props) => ({
     body: {
-      color: module("gray.800", "whiteAlpha:900")
-    }
+      color: module("gray.800", "whiteAlpha:900")(props),
+      bg: module("gray.100", "#101010")(props)
+    },
   })
 }
 
