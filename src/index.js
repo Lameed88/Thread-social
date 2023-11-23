@@ -5,10 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ChakraProvider } from '@chakra-ui/react';
 
+const styles = {
+  global: (props) => ({
+    body: {
+      color: module("gray.800", "whiteAlpha:900")
+    }
+  })
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ChakraProvider>
     <App />
+    </ChakraProvider>
   </React.StrictMode>
 ); 
 
