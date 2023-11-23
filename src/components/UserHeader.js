@@ -7,6 +7,7 @@ import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/menu";
 import { Portal } from "@chakra-ui/portal";
 
 const UserHeader = () => {
+    const toast = useToast()
   return (
     <VStack gap={4} alignItems={"start"}>
       <Flex justifyContent={"space-between"} w={"full"}>
