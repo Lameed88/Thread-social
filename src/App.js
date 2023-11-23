@@ -6,8 +6,8 @@ function App() {
 
   
   return (
-    <Container maxHeight={}> 
-    <Button colorScheme='yellow'>Hello Tutor</Button>
+    <Container maxW="620px"> 
+ 
     </Container>
  
   );
