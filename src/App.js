@@ -8,6 +8,9 @@ function App() {
   
   return (
     <Container maxW="620px"> 
+    <Route>
+      <Route path="/:username" element={<UserPage />}/>
+    </Route>
  
     </Container>
  
