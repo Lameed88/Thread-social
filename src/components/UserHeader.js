@@ -8,6 +8,9 @@ import { Portal } from "@chakra-ui/portal";
 
 const UserHeader = () => {
     const toast = useToast()
+    const copyURL = () => {
+        
+    }
   return (
     <VStack gap={4} alignItems={"start"}>
       <Flex justifyContent={"space-between"} w={"full"}>
