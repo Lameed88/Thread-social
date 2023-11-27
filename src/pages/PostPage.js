@@ -76,14 +76,21 @@ const PostPage = () => {
         username={"Ryan Florence"}
         userAvatar={"https://bit.ly/ryan-florence"}
         createdAt={"3 mins ago"}
+        Comments={"welcome back online bro"}
+      />
+      <Comments
+        likes={142}
+        username={"Ryan Florence"}
+        userAvatar={"https://bit.ly/ryan-florence"}
+        createdAt={"7 days ago"}
         Comments={"you are the best"}
       />
       <Comments
-        likes={12}
-        username={"Ryan Florence"}
+        likes={152}
+        username={"Abiola"}
         userAvatar={"https://bit.ly/ryan-florence"}
-        createdAt={"3 mins ago"}
-        Comments={"you are the best"}
+        createdAt={"5 days ago"}
+        Comments={"the guy is too good"}
       />
     </>
   );
