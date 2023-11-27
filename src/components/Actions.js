@@ -4,7 +4,11 @@ import React from 'react'
 const Actions = ({liked, setLiked}) => {
   return (
 
-    <> </>
+    <> 
+    <Flex cursor={"pointer"}>
+
+    </Flex>
+    </>
   )
 }
 
