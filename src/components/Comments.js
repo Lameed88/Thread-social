@@ -3,7 +3,8 @@ import {BsThreeDots} from "react-icons/bs"
 import Actions from "./Actions";
 import { useState } from "react";
 
-const Comments = ({ comment, createdAt, likes, username, userAvatar }) => {
+
+const Comments = ({ Comment, createdAt, likes, username, userAvatar }) => {
     const [liked, setLiked] = useState(true)
   return (
     <>
@@ -22,7 +23,7 @@ const Comments = ({ comment, createdAt, likes, username, userAvatar }) => {
                     <BsThreeDots/>
                 </Flex>
             </Flex>
-            <Text>I am Supreme </Text>
+            <Text>{Comments} </Text>
             <Actions liked={liked} setLiked={setLiked} />
             <Text>{21 + (liked ? 1 : 0)}likes</Text>
         </Flex>
