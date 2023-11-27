@@ -80,7 +80,7 @@ const PostPage = () => {
       />
       <Comments
         likes={142}
-        username={"Ryan Florence"}
+        username={"Olamide"}
         userAvatar={"https://bit.ly/ryan-florence"}
         createdAt={"7 days ago"}
         Comments={"you are the best"}
