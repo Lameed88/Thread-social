@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const UserPosts = () => {
   return 
 
-    <Link to={}>
+    <Link to={"/aliumusa/post/1"}>
 
     </Link>
   
