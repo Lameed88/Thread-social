@@ -10,7 +10,7 @@ const Comments = ({ Comments, createdAt, likes, username, userAvatar }) => {
     <>
       <Flex gap={4} my={2} py={2} w={"full"}>
         <Avatar
-          src="https://bit.ly/ryan-florence"
+          src={userAvatar}
           size={"sm"}
           name="Ryan Florence"
 
@@ -25,7 +25,7 @@ const Comments = ({ Comments, createdAt, likes, username, userAvatar }) => {
             </Flex>
             <Text>{Comments} </Text>
             <Actions liked={liked} setLiked={setLiked} />
-            <Text>{21 + (liked ? 1 : 0)}likes</Text>
+            <Text>{21 + (liked ? 1 : 0)}{likes}</Text>
         </Flex>
       </Flex>
     </>
