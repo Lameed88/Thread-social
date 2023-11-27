@@ -69,7 +69,7 @@ const PostPage = () => {
         </Flex>
         <Button>Get</Button>
       </Flex>
-
+ 
       <Divider my={4} />
       <Comments
         likes={12}
