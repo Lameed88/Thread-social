@@ -7,7 +7,7 @@ const UserPosts = () => {
     <Link to={"/aliumusa/post/1"}>
 
     </Link>
-  
+
 }
 
 export default UserPosts
