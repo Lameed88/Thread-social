@@ -1,20 +1,22 @@
-import{ Avatar } from "@chakra-ui/avatar"
-import { Link } from 'react-router-dom'
-import { Flex } from "@chakra-ui/layout"
-
+import { Avatar, Flex, Box } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const UserPosts = () => {
-  return 
-
+  return (
     <Link to={"/aliumusa/post/1"}>
-       <Flex gap={3} mb={4} py={5}>
-        <Flex >
-            <Avatar src="/post1.png" />
+      <Flex gap={3} mb={4} py={5}>
+        <Flex flexDir={"column"}>
+          <Avatar src="/post1.png" name="Mark Zuckerberg"
+          size={"md"} />
+          <Box w={"1px"} h={"full"} bg={"gray.light"} my={2}
+          ></Box>
+          <Box>
+            
+          </Box>
         </Flex>
-       </Flex>
-
+      </Flex>
     </Link>
+  );
+};
 
-}
-
-export default UserPosts
+export default UserPosts;
