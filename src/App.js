@@ -8,7 +8,7 @@ import PostPage from './pages/PostPage'
 
 
 function App() {
-
+ 
   return (
     <Container maxW="620px"> 
     <Header />
