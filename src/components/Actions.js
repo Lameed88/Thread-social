@@ -1,8 +1,10 @@
+import { Flex } from '@chakra-ui/react'
 import React from 'react'
 
 const Actions = ({liked, setLiked}) => {
   return (
-    <div>Actions</div>
+
+    <Flex></Flex>
   )
 }
 
