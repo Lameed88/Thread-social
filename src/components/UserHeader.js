@@ -92,7 +92,7 @@ const UserHeader = () => {
          color={"gray.light"}
          cursor={"pointer"}> 
         
-            <Text>Replies</Text>
+            <Text fontWeight={"bold"}>Replies</Text>
         </Flex>
       </Flex>
     </VStack>
