@@ -5,7 +5,7 @@ const Actions = ({liked, setLiked}) => {
   return (
 
     <> 
-    <Flex cursor={"pointer"}>
+    <Flex cursor={"pointer"} gap={3} my={2}>
 
     </Flex>
     </>
