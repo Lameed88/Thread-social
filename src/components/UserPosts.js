@@ -5,9 +5,7 @@ const UserPosts = () => {
   return 
 
     <Link to={"/aliumusa/post/1"}>
-        <Flex>
-            
-        </Flex>
+       
 
     </Link>
 
