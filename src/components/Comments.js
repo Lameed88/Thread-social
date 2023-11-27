@@ -4,7 +4,7 @@ import Actions from "./Actions";
 import { useState } from "react";
 
 
-const Comments = ({ Comment, createdAt, likes, username, userAvatar }) => {
+const Comments = ({ Comments, createdAt, likes, username, userAvatar }) => {
     const [liked, setLiked] = useState(true)
   return (
     <>
