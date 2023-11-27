@@ -4,10 +4,8 @@ import { Link } from "react-router-dom";
 import Actions from "./Actions";
 import { useState } from "react";
 
-
-   
-const UserPosts = ({userAvatar, username, postTitle, postImage}) => {
-   const [liked, setLiked] = useState(false)
+const UserPosts = ({ likes, replies, postTitle, postImage }) => {
+  const [liked, setLiked] = useState(false);
   return (
     <Link to={"/aliumusa/post/1"}>
       <Flex gap={3} mb={4} py={5}>
@@ -56,19 +54,27 @@ const UserPosts = ({userAvatar, username, postTitle, postImage}) => {
               <BsThreeDots />
             </Flex>
           </Flex>
-          <Text fontSize={"sm"}>Hello Thread!!!</Text>
-          <Box overflow={"hidden"} borderRadius={6} border={"1px solid"} borderColor={"gray.light"}>
-            <Image src="/aliumusa.jpeg" />
+          <Text fontSize={"sm"}> {postTitle}</Text>
+          <Box
+            overflow={"hidden"}
+            borderRadius={6}
+            border={"1px solid"}
+            borderColor={"gray.light"}
+          >
+            <Image src={postImage} />
           </Box>
           <Flex>
-            <Actions liked={liked}  setLiked={setLiked}/>
+            <Actions liked={liked} setLiked={setLiked} />
           </Flex>
-          <Flex gap={2} color={"gray.light"} fontSize={"sm"} alignItems={"center"}>
-            <Text >1222 Replies</Text>
-           <Box w={.5} h={.5} borderRadius={"full"} bg={"green"} >
-
-           </Box>
-            <Text>3390 likes</Text>
+          <Flex
+            gap={2}
+            color={"gray.light"}
+            fontSize={"sm"}
+            alignItems={"center"}
+          >
+            <Text>{replies} Replies</Text>
+            <Box w={0.5} h={0.5} borderRadius={"full"} bg={"green"}></Box>
+            <Text>{likes} likes</Text>
           </Flex>
         </Flex>
       </Flex>
