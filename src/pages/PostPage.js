@@ -27,7 +27,7 @@ const PostPage = () => {
         <Flex alignItems={"center"}>
           <Avatar src="/aliumusa.jpeg" size={"md"} mr={2} />
           <Text fontSize={"sm"}>Aliu musa</Text>
-          <Image src="userAvatar" h={4} w={4} ml={2} />
+          <Image src="verified.png" h={4} w={4} ml={2} />
         </Flex>
 
         <Flex alignItems={"center"} gap={4}>
