@@ -74,7 +74,7 @@ const UserPosts = ({ likes, replies, postTitle, postImage }) => {
               <MenuButton >
               <BsThreeDots size={24} cursor={"pointer"} />
               </MenuButton>
-    
+     
                 <MenuList >
                   <MenuGroup>
                   <MenuItem bg={"gray.dark"} color={"white"} >Mute</MenuItem>
